@@ -168,8 +168,8 @@ workflows:
             echo "Fourth script success!"
 meta:
   bitrise.io:
-    stack: linux-docker-android-20.04 
-    machine_type_id: standard
+    stack: osx-xcode-14.3.x-ventura
+    machine_type_id: g2.mac.large
 app:
   envs:
   - opts:
